@@ -1,18 +1,23 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-typedef double rand_type; // change double to int
+/*betty style for function main goes there*/
+/**
+*main - Entry point
+*
+*Return: Always 0 (Sucess)
+*/
 
-rand_type my_rand() {
-    char buff[sizeof(rand_type)];
-    for (size_t i = 0 ; i < sizeof(rand_type) ; ++i)
-        buff[i] = (char) rand();
-    return *(rand_type *) buff;
-}
-
-int main() {
-    int i ; // srand as you want
-    for (i = 0 ; i < 10 ; ++i)
-        printf("%g\n", my_rand()); // change %g to %d
-    return 0 ;
+int main(void)
+{
+    int n 
+        
+    srand(time(0));
+    n = rand() - RAND_MAX / 2;
+    if (n > 0)
+    {printf "%i is positive/n", n}
+    else if (n == 0)
+    {printf "%i is zero/n", n}
+    else if (n < 0)
+    {printf "%i is negative/n" , n}
 }

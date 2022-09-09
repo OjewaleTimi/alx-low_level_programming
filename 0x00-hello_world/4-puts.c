@@ -1,4 +1,5 @@
-#include<studio.h>
+
+#include <stdio.h>
 /**
 *main-program prints with function puts
 *

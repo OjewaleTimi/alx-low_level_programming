@@ -10,18 +10,11 @@ int main(void)
 {
 	char l;
 
-	l = 'a';
-	while (l <= 'z')
+	l = 'z';
+	while (l >= 'a')
 	{
-		if ((l != 'e') && (l != 'q'))
-		{
-			putchar(l);
-			l++;
-		}
-		else
-		{
-			l++;
-		}
+		putchar(l);
+		l--;
 	}
 	putchar('\n');
 	return (0);

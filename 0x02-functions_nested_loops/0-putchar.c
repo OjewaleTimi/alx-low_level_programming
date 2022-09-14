@@ -1,21 +1,19 @@
 #include "main.h"
-/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-int main(void){
+int main(void)
+{
+	char *sh = "_putchar";
 
-    char *tm = '_putchar'
-    
-    while(*tm){
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 
-        putchar(*tm);
-        tm++;
-
-    }
-    _puchar('\n');
-
-    return 0;
+	return (0);
 }

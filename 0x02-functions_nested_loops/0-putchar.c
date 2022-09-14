@@ -1,7 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * main - Entry point

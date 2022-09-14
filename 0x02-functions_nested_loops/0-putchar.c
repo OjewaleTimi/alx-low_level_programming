@@ -12,7 +12,7 @@ int main(void){
 
     char *tm = '_putchar'
     
-    while(*ca){
+    while(*tm){
 
         putchar(*tm);
         tm++;

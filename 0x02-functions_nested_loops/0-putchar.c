@@ -9,7 +9,9 @@
  * Return: Always 0 (Success)
  */
 int main(void){
+    char[10] word = "_putchar";
+    for ( i=0 , i<10 , i++){
     putchar("_putchar");
-    putchar(/n);
+    putchar(/n);}
     return 0
 }

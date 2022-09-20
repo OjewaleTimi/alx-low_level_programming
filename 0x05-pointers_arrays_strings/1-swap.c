@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
 *swap_int - swap two integers
@@ -7,11 +6,11 @@
 *Return: nothing
 */
 
-void swap_int (int *a, int *b)
+void swap_int(int *a, int *b)
 {
-int c = *b;
-*b = *a;
-*a = c;
+int tmp = *a;
+*a = *b;
+*b = tmp;
 }
   
   

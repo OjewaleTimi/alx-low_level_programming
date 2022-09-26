@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
 *memset- fills byte to a constant
@@ -13,7 +12,7 @@ Return: a pointer to the memory area @s
  {
       unsigned int n;
       
-     for(i=0; i < n ; i++)
+     for(i = 0; i < n ; i++)
  `   {
            s[i] = b;
      }

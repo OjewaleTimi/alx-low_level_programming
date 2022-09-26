@@ -12,7 +12,7 @@ Return: a pointer to the memory area @s
  {
       unsigned int i;
       
-     for(i = 0; i < n ; i++)
+     for(i = 0; n > 0 ; i++,n--)
  `   {
            s[i] = b;
      }

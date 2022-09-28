@@ -2,7 +2,7 @@
 
 /**
  * _memset - 
-
+ * @s: bbbbbbbbbbb
  * @b: data to change
  * @n: index
  * Return: *s

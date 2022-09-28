@@ -8,12 +8,11 @@
 
 void _puts_recursion(char *s)
 {
-    printf("%s", s);
-}
-
-
-int main(void)
-{
-    _puts_recursion("Puts with recursion");
-    return (0);
+    if(*s == "\0")
+    {   
+    _putchar('\n');
+		return;
+	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }

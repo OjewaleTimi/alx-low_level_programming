@@ -2,7 +2,7 @@
 
 /**
  * _memset - 
- * @s: pointer to char params
+
  * @b: data to change
  * @n: index
  * Return: *s

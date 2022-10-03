@@ -1,7 +1,15 @@
+#include "main.h"
 #include <stdio.h>
+
+/**@agrc: counting the number of arguements
+@agrv: stating the arguments
+*/
 
 int main(int argc, char* argv)
 {
-  printf("%s", *argv);
+  (void)argc;
+  
+  printf("%s", argv[0]);
+  
   return(0);
 }

@@ -1,5 +1,7 @@
 #include "main.h"
+#include <ctype.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - program that the number of arguments passed into it

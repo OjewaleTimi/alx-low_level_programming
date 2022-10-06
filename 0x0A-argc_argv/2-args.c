@@ -1,25 +1,23 @@
-#include "main.h"
+/*
+ * File: 2-args.c 
+ * Auth: Brennan D B araban 
+ */
+
 #include <stdio.h>
 
 /**
- * main - program that the number of arguments passed into it
+ * main - Prints all arguments it receives.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  *
- * @argc: argument count
- * @argv: argument vector
- *
- * Return: 0
+ * Return: Always 0.
  */
-
 int main(int argc, char *argv[])
 {
-    int i;
-    
-    for( i = 0; i < argc; i++)
-    {
-       
-        printf("%s\n",argv[i]);
-    
-    };
-	
+	int arg;
+
+	for (arg = 0; arg < argc; arg++)
+		printf("%s\n", argv[arg]);
+
 	return (0);
-}
+

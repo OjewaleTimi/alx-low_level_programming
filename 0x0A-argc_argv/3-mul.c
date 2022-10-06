@@ -1,32 +1,34 @@
-#include "main.h"
-#include <ctype.h>
+/*
+ * File: 3-mul.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - program that the number of arguments passed into it
+ * main - Prints the multiplication of two numbers, followed by a new line.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  *
- * @argc: argument count
- * @argv: argument vector
- *
- * Return: 0
+ * Return: If the program receives two arguments - 0.
+ *         If the program does not receive two arguments - 1.
  */
-
 int main(int argc, char *argv[])
 {
-   int a, b, result;
+	int num1, num2, prod;
 
-   if( argc != 3) 
-   {
-   	 printf("Error\n");
-    	 return 1;
-   }
+	if (argc != 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
 
-   a = atoi(argv[1]);
-   b = atoi(argv[2]);
-   result = a * b;
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	prod = num1 * num2;
 
-   printf("%i", result);
+	printf("%d\n", prod);
 
-   return (0);
+	return (0);
 }

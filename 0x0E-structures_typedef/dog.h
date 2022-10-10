@@ -9,13 +9,13 @@
 
 int main (int argc, char **argv)
 {
-
+  
   struct dog  
-     {
+  {
     char *name;
     float age;
     char *owner;
-      };
+  };
   
     return 0;
 }

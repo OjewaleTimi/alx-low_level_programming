@@ -1,21 +1,18 @@
-#include <stdio.h>
-#include "dog.h"
-
+#ifndef _DOG_H_
+#define _DOG_H_
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * struct dog - describes the sweet boy or girl
+ * @name: name of dog
+ * @age: how old is that dog?
+ * @owner: who is the lucky person that gets to live with that dog?
  */
-
-int main (int argc, char **argv)
+struct dog
 {
-  
-  struct dog  
-  {
-    char *name;
-    float age;
-    char *owner;
-  };
-  
-    return 0;
-}
+	char *name;
+	float age;
+	char *owner;
+};
+/**
+ * typedef dog_t - defines a new name for type struct dog
+ */
+typedef struct dog dog_t;
